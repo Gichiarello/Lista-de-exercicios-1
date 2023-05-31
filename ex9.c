@@ -1,3 +1,6 @@
+/*Giovanni Chiarello 31/05
+Finalidade: display de matriz
+*/
 #include <stdio.h>
 
 int main() {
