@@ -1,3 +1,6 @@
+/*Giovanni Chiarello 31/05
+Finalidade: calcular o salario total baseado no total de vendas
+*/
 #include <stdio.h>
 #include <locale.h>
 
