@@ -1,3 +1,7 @@
+/*Giovanni Chiarello 31/05
+Finalidade: achar o maior numero entre 3 inteiros inseridos
+*/
+
 #include <stdio.h>
 
 int main() {
@@ -5,11 +9,11 @@ int main() {
     int posicao;
     //entradas: os 3 numeros a ser lidos
 
-    printf("Digite o primeiro número: ");
+    printf("Digite o primeiro nÃºmero: ");
     scanf("%d", &num1);
-    printf("\nDigite o segundo número: ");
+    printf("\nDigite o segundo nÃºmero: ");
     scanf("%d", &num2);
-    printf("\nDigite o terceiro número: ");
+    printf("\nDigite o terceiro nÃºmero: ");
     scanf("%d", &num3);
     
     //processamento: verifica entre os 3 qual o maior
@@ -21,7 +25,7 @@ int main() {
         posicao = 3;
     }
 
-    printf("\n\nO maior número está na posição: %d\n", posicao); //saida: Mostra qual e onde esta o maior numero dentre os 3
+    printf("\n\nO maior nÃºmero estÃ¡ na posiÃ§Ã£o: %d\n", posicao); //saida: Mostra qual e onde esta o maior numero dentre os 3
 
     return 0;
 }
