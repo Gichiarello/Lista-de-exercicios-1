@@ -1,3 +1,6 @@
+/*Giovanni Chiarello 31/05
+Finalidade: divisão basica, porem o dividendo não pode ser 0
+*/
 #include <stdio.h>
 #include <locale.h>
 
