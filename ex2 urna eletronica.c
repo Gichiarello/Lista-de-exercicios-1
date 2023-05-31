@@ -1,3 +1,6 @@
+/*Giovanni Chiarello 31/05
+Finalidade: simular uma urna eletronica e calcular o total de votos
+*/
 #include <stdio.h>
 
 int main(){
@@ -7,7 +10,7 @@ int main(){
 	printf("Insira o total de votos:"); scanf("%d",&totalVotos);
 	printf("Insira o total de votos em branco:"); scanf("%d",&votosBranco);
 	printf("Insira o total de votos nulos:"); scanf("%d",&votosNulo);
-	//processo: o total de votos sao todos que nao s„o diferentes
+	//processo: o total de votos sao todos que nao s√£o diferentes
 	votos=totalVotos-votosBranco-votosNulo;
 	//saida: mostra os votos separadamente
 	printf("\nTotal de Votos: %d\n", totalVotos);
