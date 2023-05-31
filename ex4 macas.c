@@ -1,3 +1,6 @@
+/*Giovanni Chiarello 31/05
+Finalidade: calcular o preco total de ma√ßas baseado na quantidade
+*/
 #include <stdio.h>
 #include <locale.h>
 
@@ -6,7 +9,7 @@ int main(){
 	float m;
 	int totalm;
 	
-	printf("Total de maÁas compradas:"); scanf("%d",&totalm);
+	printf("Total de ma√ßas compradas:"); scanf("%d",&totalm);
 	
 	if(totalm < 12){
 		m=1.30;
@@ -17,7 +20,7 @@ int main(){
 		m=m*totalm;
 	}
 	
-	printf("MaÁas compradas: %d\n", totalm);
+	printf("Ma√ßas compradas: %d\n", totalm);
 	printf("Custo total: %.2f", m);
 	
     return 0;
