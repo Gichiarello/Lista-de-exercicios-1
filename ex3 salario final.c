@@ -1,3 +1,6 @@
+/*Giovanni Chiarello 31/05
+Finalidade: calcular o salario final levando em consideração todas as mudanças
+*/
 #include <stdio.h>
 
 int main(){
