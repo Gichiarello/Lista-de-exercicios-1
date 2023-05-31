@@ -1,3 +1,6 @@
+/*Giovanni Chiarello 31/05
+Finalidade: printar uma letra dependendo do numero inserido
+*/
 #include <stdio.h>
 #include <locale.h>
 
